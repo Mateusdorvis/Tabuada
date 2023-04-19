@@ -1,0 +1,138 @@
+ body {
+     background-image: linear-gradient(to  left, #c31432, #240b36);
+     font-family: Arial, Helvetica, sans-serif;
+     color: aliceblue;
+     margin: 0;
+     margin: 0;
+ }
+ header {
+     background-color: #f3f4e5;
+     display: flex;
+     padding: 12px;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row-reverse;
+     text-transform: uppercase;
+     color: #000000;
+     letter-spacing: 5px;
+ }
+ .tabuada {
+     padding: 10%;
+ }
+ .dark-mode {
+     background: #000000;
+     color: white;
+ }
+ #image {
+     width: 100px;
+     height: 100px;
+     border-radius: 100px;
+     background-color: #b0c65a;
+ }
+ #image:hover {
+     background-image: linear-gradient(180deg, #1ea49d, #027fe9);
+ }
+
+ table {
+     padding: 20px;
+ }
+
+ kbd {
+     font-weight: 600;
+ }
+
+ .tabuada p {
+     font-size: 1.9rem;
+ }
+
+ .dark-mode header {
+     background-color: #0d0f06;
+     color: white;
+ }
+ .dark-mode .section{
+       background-color: hsl(0, 2%, 10%);
+ }
+.dark-mode .midias{
+    background-color: #6a6a6a;
+}
+ #toggle-mode {
+     background: #050000;
+     color: white;
+     border-radius: 10px;
+     padding: 3px;
+     height: 50px;
+     font-weight: 600;
+     transition: all 0.9s;
+ }
+
+ #toggle-mode:hover {
+     background-color: #454545;
+     color: #b3c67f;
+     transition: all 0.9s;
+     border-style: none;
+     cursor: pointer;
+ }
+
+ .midias img {
+     width: 50px;
+     height: 50px;
+ }
+
+ footer {
+     background-color: #606d80;
+     font-size: medium;
+ }
+
+ .footer-div {
+     padding-left: 20px;
+     text-align: justify;
+ }
+
+ .midias {
+     display: flex;
+     justify-content: space-around;
+     padding: 10px;
+ }
+
+ .section {
+     padding: 50px;
+     display: flex;
+     background-color: #33384e;
+ }
+
+ #perfil {
+     background-color: #fff;
+     border-radius: 100px;
+     width: 100px;
+     height: 100px;
+ }
+
+ footer h1 {
+     text-align: center;
+ }
+
+ #git {
+     background-image: linear-gradient(#aa4b6b, #6b6b83, #3b8d99);
+     border-radius: 20px;
+  }
+ #oi {
+     background-color: #fff;
+     border-radius: 23px;
+ }
+ #linkl {
+     border-radius: 5px;
+     background-color: #fff;
+  }
+  button {
+    border-radius: 5px;
+    height: 2.0rem;
+    
+  }
+  input{
+    border-radius: 20px;
+  }
+  button:active{
+    transform: scale(0.9);
+    box-shadow: none;
+ }
+
